@@ -85,7 +85,7 @@ class _FeedScreenState extends State<FeedScreen> {
                     children: [
                       Icon(Icons.arrow_back_ios),
                       Text(
-                        "Charlotte Stone",
+                        "포트폴리오",
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold),
                       ),
@@ -104,7 +104,7 @@ class _FeedScreenState extends State<FeedScreen> {
                         ClipOval(
                           child: CachedNetworkImage(
                             imageUrl:
-                                "https://www.andersonsobelcosmetic.com/wp-content/uploads/2018/09/chin-implant-vs-fillers-best-for-improving-profile-bellevue-washington-chin-surgery.jpg",
+                                "https://firebasestorage.googleapis.com/v0/b/fluttertestabc.appspot.com/o/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.jpeg?alt=media&token=92f01f81-859a-43d9-b9bc-cc85f0cc67ac",
                             height: 100.0,
                             width: 100.0,
                             placeholder: (context, url) =>
@@ -119,7 +119,7 @@ class _FeedScreenState extends State<FeedScreen> {
                       height: 10,
                     ),
                     Text(
-                      "@Charlotte21",
+                      "@Mandoopapa",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                     ),
@@ -140,7 +140,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               height: 5,
                             ),
                             Text(
-                              "Following",
+                              "팔로잉",
                               style: TextStyle(
                                   fontSize: 12, fontWeight: FontWeight.normal),
                             ),
@@ -163,7 +163,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               height: 5,
                             ),
                             Text(
-                              "Followers",
+                              "팔로워",
                               style: TextStyle(
                                   fontSize: 12, fontWeight: FontWeight.normal),
                             ),
@@ -186,7 +186,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               height: 5,
                             ),
                             Text(
-                              "Likes",
+                              "좋아요",
                               style: TextStyle(
                                   fontSize: 12, fontWeight: FontWeight.normal),
                             ),
@@ -208,10 +208,10 @@ class _FeedScreenState extends State<FeedScreen> {
                           ),
                           child: Center(
                             child: Text(
-                              "Follow",
+                              "팔로우",
                               style: TextStyle(
                                   color: Colors.white,
-                                  fontSize: 15,
+                                  fontSize: 16,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
@@ -286,7 +286,7 @@ class _FeedScreenState extends State<FeedScreen> {
                       children: [
                         Expanded(
                           child: Container(
-                            height: 160,
+                            height: 140,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -295,7 +295,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/tOueglJrk5rS8/giphy.gif",
+                                    "https://mandoopapa.github.io/react-portfolio/images/portfolio/port1/p1.jpg",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -309,7 +309,7 @@ class _FeedScreenState extends State<FeedScreen> {
                         ),
                         Expanded(
                           child: Container(
-                            height: 160,
+                            height: 140,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -318,7 +318,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/665IPY24jyWFa/giphy.gif",
+                                    "https://mandoopapa.github.io/react-portfolio/images/portfolio/photography/p1.jpg",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -332,7 +332,7 @@ class _FeedScreenState extends State<FeedScreen> {
                         ),
                         Expanded(
                           child: Container(
-                            height: 160,
+                            height: 140,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -341,7 +341,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/chjX2ypYJKkr6/giphy.gif",
+                                    "https://mandoopapa.github.io/react-portfolio/images/portfolio/adventure/p1.jpg",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -359,7 +359,7 @@ class _FeedScreenState extends State<FeedScreen> {
                       children: [
                         Expanded(
                           child: Container(
-                            height: 160,
+                            height: 140,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -368,7 +368,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/sC60eX0OVIH7O/giphy.gif",
+                                    "https://mandoopapa.github.io/react-portfolio/images/portfolio/github_ext/p1.jpg",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -382,7 +382,7 @@ class _FeedScreenState extends State<FeedScreen> {
                         ),
                         Expanded(
                           child: Container(
-                            height: 160,
+                            height: 140,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -391,7 +391,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/NsXhybxnMKsh2/giphy.gif",
+                                    "https://mandoopapa.github.io/react-portfolio/images/portfolio/gogin/p1.jpg",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -405,7 +405,7 @@ class _FeedScreenState extends State<FeedScreen> {
                         ),
                         Expanded(
                           child: Container(
-                            height: 160,
+                            height: 140,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -414,7 +414,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/HE6hyf47yAX1S/giphy.gif",
+                                    "https://firebasestorage.googleapis.com/v0/b/fluttertestabc.appspot.com/o/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.jpeg?alt=media&token=92f01f81-859a-43d9-b9bc-cc85f0cc67ac",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -470,7 +470,7 @@ class _FeedScreenState extends State<FeedScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  Text('Following',
+                  Text('팔로잉',
                       style: TextStyle(
                           fontSize: 17.0,
                           fontWeight: FontWeight.normal,
@@ -486,7 +486,7 @@ class _FeedScreenState extends State<FeedScreen> {
                   SizedBox(
                     width: 7,
                   ),
-                  Text('For You',
+                  Text('추천',
                       style: TextStyle(
                           fontSize: 17.0,
                           fontWeight: FontWeight.bold,

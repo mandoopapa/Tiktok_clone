@@ -2,8 +2,7 @@ var data = [
   {
     "id": "1",
     "video_title": "Video 1",
-    "url":
-        "https://firebasestorage.googleapis.com/v0/b/videostreaming-test.appspot.com/o/vid%2FSnaptik_6745671851688692998_tiktok.mp4?alt=media&token=e6c76be2-9d8e-4be6-aedc-89ddd4985871",
+    "url": "https://youtu.be/YdD2aYIhdvU",
     "comments": "143",
     "likes": "3223",
     "song_name": "Song 1 - Artist 1",

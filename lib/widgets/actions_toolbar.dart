@@ -33,8 +33,7 @@ class ActionsToolbar extends StatelessWidget {
         _getFollowAction(pictureUrl: userPic),
         _getSocialAction(icon: TikTokIcons.heart, title: numLikes),
         _getSocialAction(icon: TikTokIcons.chat_bubble, title: numComments),
-        _getSocialAction(
-            icon: TikTokIcons.reply, title: 'Share', isShare: true),
+        _getSocialAction(icon: TikTokIcons.reply, title: '공유', isShare: true),
         CircleImageAnimation(
           child: _getMusicPlayerAction(userPic),
         )
@@ -112,8 +111,8 @@ class ActionsToolbar extends StatelessWidget {
 
   LinearGradient get musicGradient => LinearGradient(colors: [
         Colors.grey[800]!,
-        Colors.grey[900]!,
-        Colors.grey[900]!,
+        Colors.black,
+        Colors.black,
         Colors.grey[800]!
       ], stops: [
         0.0,

@@ -28,7 +28,7 @@ class _MessagesScreenState extends State<MessagesScreen> {
                 Row(
                   children: [
                     Text(
-                      "All activity",
+                      "모든 활동",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                     ),
@@ -54,12 +54,12 @@ class _MessagesScreenState extends State<MessagesScreen> {
           ),
           SizedBox(height: 25),
           Text(
-            "All activity",
+            "메시지가 없습니다",
             style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 3),
           Text(
-            "Notifications about your account will appear here",
+            "메시지와 알림은 여기에 표시됩니다",
             style: TextStyle(fontSize: 13, fontWeight: FontWeight.normal),
           ),
         ]),

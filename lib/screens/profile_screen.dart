@@ -20,7 +20,7 @@ class ProfileScreen extends StatelessWidget {
                 children: [
                   Icon(Icons.person_add_alt_1_outlined),
                   Text(
-                    "Salvador Valverde",
+                    "만두아빠",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
                   Icon(Icons.more_horiz)
@@ -55,7 +55,7 @@ class ProfileScreen extends StatelessWidget {
                     height: 10,
                   ),
                   Text(
-                    "@salvadordev",
+                    "@mandoopapa",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
                   SizedBox(
@@ -75,7 +75,7 @@ class ProfileScreen extends StatelessWidget {
                             height: 5,
                           ),
                           Text(
-                            "Following",
+                            "팔로워",
                             style: TextStyle(
                                 fontSize: 12, fontWeight: FontWeight.normal),
                           ),
@@ -98,7 +98,7 @@ class ProfileScreen extends StatelessWidget {
                             height: 5,
                           ),
                           Text(
-                            "Followers",
+                            "팔로잉",
                             style: TextStyle(
                                 fontSize: 12, fontWeight: FontWeight.normal),
                           ),
@@ -121,7 +121,7 @@ class ProfileScreen extends StatelessWidget {
                             height: 5,
                           ),
                           Text(
-                            "Likes",
+                            "좋아요",
                             style: TextStyle(
                                 fontSize: 12, fontWeight: FontWeight.normal),
                           ),
@@ -142,7 +142,7 @@ class ProfileScreen extends StatelessWidget {
                             border: Border.all(color: Colors.black12)),
                         child: Center(
                           child: Text(
-                            "Edit profile",
+                            "프로필 수정",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.bold),
                           ),
@@ -225,7 +225,7 @@ class ProfileScreen extends StatelessWidget {
                     children: [
                       Expanded(
                         child: Container(
-                          height: 160,
+                          height: 140,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
@@ -248,7 +248,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: Container(
-                          height: 160,
+                          height: 140,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
@@ -271,7 +271,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: Container(
-                          height: 160,
+                          height: 140,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
@@ -298,7 +298,7 @@ class ProfileScreen extends StatelessWidget {
                     children: [
                       Expanded(
                         child: Container(
-                          height: 160,
+                          height: 140,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
@@ -321,7 +321,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: Container(
-                          height: 160,
+                          height: 140,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
@@ -344,7 +344,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: Container(
-                          height: 160,
+                          height: 140,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
