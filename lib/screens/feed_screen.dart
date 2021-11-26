@@ -238,8 +238,21 @@ class _FeedScreenState extends State<FeedScreen> {
                         )
                       ],
                     ),
+                    SizedBox(height: 10),
+                    Container(
+                        child: Padding(
+                      padding: const EdgeInsets.fromLTRB(10, 4, 10, 0),
+                      child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(Icons.code_rounded),
+                            SizedBox(width: 5),
+                            Text("프론트엔드, iOS/안드로이드 앱 전문 블록체인 개발자",
+                                style: TextStyle(fontSize: 14))
+                          ]),
+                    )),
                     SizedBox(
-                      height: 25,
+                      height: 10,
                     ),
                     Container(
                       height: 45,
@@ -286,7 +299,7 @@ class _FeedScreenState extends State<FeedScreen> {
                       children: [
                         Expanded(
                           child: Container(
-                            height: 140,
+                            height: 130,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -309,7 +322,7 @@ class _FeedScreenState extends State<FeedScreen> {
                         ),
                         Expanded(
                           child: Container(
-                            height: 140,
+                            height: 130,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -332,7 +345,7 @@ class _FeedScreenState extends State<FeedScreen> {
                         ),
                         Expanded(
                           child: Container(
-                            height: 140,
+                            height: 130,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -359,7 +372,7 @@ class _FeedScreenState extends State<FeedScreen> {
                       children: [
                         Expanded(
                           child: Container(
-                            height: 140,
+                            height: 130,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -382,7 +395,7 @@ class _FeedScreenState extends State<FeedScreen> {
                         ),
                         Expanded(
                           child: Container(
-                            height: 140,
+                            height: 130,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -405,7 +418,7 @@ class _FeedScreenState extends State<FeedScreen> {
                         ),
                         Expanded(
                           child: Container(
-                            height: 140,
+                            height: 130,
                             decoration: BoxDecoration(
                                 color: Colors.black26,
                                 border: Border.all(
@@ -550,7 +563,7 @@ class _FeedScreenState extends State<FeedScreen> {
               children: <Widget>[
                 VideoDescription(video.user, video.videoTitle, video.songName),
                 ActionsToolbar(video.likes, video.comments,
-                    "https://www.andersonsobelcosmetic.com/wp-content/uploads/2018/09/chin-implant-vs-fillers-best-for-improving-profile-bellevue-washington-chin-surgery.jpg"),
+                    "https://firebasestorage.googleapis.com/v0/b/fluttertestabc.appspot.com/o/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.jpeg?alt=media&token=92f01f81-859a-43d9-b9bc-cc85f0cc67ac"),
               ],
             ),
             SizedBox(height: 20)

@@ -143,7 +143,7 @@ class _SearchScreenState extends State<SearchScreen> {
                                   color: Colors.black45)),
                         ]),
                       ),
-                      SizedBox(width: 190),
+                      SizedBox(width: 170),
                       Container(
                         decoration: BoxDecoration(
                             color: Colors.black12,
@@ -284,7 +284,7 @@ class _SearchScreenState extends State<SearchScreen> {
                                   color: Colors.black45)),
                         ]),
                       ),
-                      SizedBox(width: 190),
+                      SizedBox(width: 170),
                       Container(
                         decoration: BoxDecoration(
                             color: Colors.black12,
