@@ -4,7 +4,7 @@
 2. 검색 페이지 11월 말 기준 '전생초상화' 버전으로 제작
 
 
-<img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/screen01.png" width=300px height=600px> <img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/screen02.png" width=300px height=600px> <img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/screen03.png" width=300px height=600px>
+<img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/screen01.png" width=200px height=400px> <img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/screen02.png" width=200px height=400px> <img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/screen03.png" width=200px height=400px>
 
 Sample Videos
 
