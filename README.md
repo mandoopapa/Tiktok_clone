@@ -1,4 +1,4 @@
-<h1 align="center">
-    <br>
-    TikTok Flutter - Clone 연습중
-</h1>
+# TikTok Clone
+
+1. 전 페이지 한글화
+2. 검색 페이지 11월 말 기준 '전생초상화' 버전으로 제작
