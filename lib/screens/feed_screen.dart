@@ -85,7 +85,7 @@ class _FeedScreenState extends State<FeedScreen> {
                     children: [
                       Icon(Icons.arrow_back_ios),
                       Text(
-                        "포트폴리오",
+                        "프로필",
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold),
                       ),
