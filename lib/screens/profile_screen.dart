@@ -38,9 +38,8 @@ class ProfileScreen extends StatelessWidget {
                     children: [
                       ClipOval(
                         child: CachedNetworkImage(
-                          fit: BoxFit.cover,
                           imageUrl:
-                              "https://q5n8c8q9.rocketcdn.me/wp-content/uploads/2018/08/The-20-Best-Royalty-Free-Music-Sites-in-2018.png",
+                              "https://firebasestorage.googleapis.com/v0/b/fluttertestabc.appspot.com/o/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.jpeg?alt=media&token=92f01f81-859a-43d9-b9bc-cc85f0cc67ac",
                           height: 100.0,
                           width: 100.0,
                           placeholder: (context, url) =>
@@ -55,7 +54,7 @@ class ProfileScreen extends StatelessWidget {
                     height: 10,
                   ),
                   Text(
-                    "@mandoopapa",
+                    "@Mandoopapa",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
                   SizedBox(
@@ -67,30 +66,7 @@ class ProfileScreen extends StatelessWidget {
                       Column(
                         children: [
                           Text(
-                            "36",
-                            style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.bold),
-                          ),
-                          SizedBox(
-                            height: 5,
-                          ),
-                          Text(
-                            "팔로워",
-                            style: TextStyle(
-                                fontSize: 12, fontWeight: FontWeight.normal),
-                          ),
-                        ],
-                      ),
-                      Container(
-                        color: Colors.black54,
-                        width: 1,
-                        height: 15,
-                        margin: EdgeInsets.symmetric(horizontal: 15),
-                      ),
-                      Column(
-                        children: [
-                          Text(
-                            "13",
+                            "232",
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.bold),
                           ),
@@ -113,7 +89,30 @@ class ProfileScreen extends StatelessWidget {
                       Column(
                         children: [
                           Text(
-                            "143",
+                            "1.3k",
+                            style: TextStyle(
+                                fontSize: 20, fontWeight: FontWeight.bold),
+                          ),
+                          SizedBox(
+                            height: 5,
+                          ),
+                          Text(
+                            "팔로워",
+                            style: TextStyle(
+                                fontSize: 12, fontWeight: FontWeight.normal),
+                          ),
+                        ],
+                      ),
+                      Container(
+                        color: Colors.black54,
+                        width: 1,
+                        height: 15,
+                        margin: EdgeInsets.symmetric(horizontal: 15),
+                      ),
+                      Column(
+                        children: [
+                          Text(
+                            "12k",
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.bold),
                           ),
@@ -139,12 +138,15 @@ class ProfileScreen extends StatelessWidget {
                         width: 140,
                         height: 47,
                         decoration: BoxDecoration(
-                            border: Border.all(color: Colors.black12)),
+                          color: Colors.pink[500],
+                        ),
                         child: Center(
                           child: Text(
-                            "프로필 수정",
+                            "팔로우",
                             style: TextStyle(
-                                fontSize: 15, fontWeight: FontWeight.bold),
+                                color: Colors.white,
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold),
                           ),
                         ),
                       ),
@@ -156,12 +158,35 @@ class ProfileScreen extends StatelessWidget {
                         height: 47,
                         decoration: BoxDecoration(
                             border: Border.all(color: Colors.black12)),
-                        child: Center(child: Icon(Icons.bookmark)),
+                        child: Center(child: Icon(Icons.camera_alt)),
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Container(
+                        width: 35,
+                        height: 47,
+                        decoration: BoxDecoration(
+                            border: Border.all(color: Colors.black12)),
+                        child: Center(child: Icon(Icons.arrow_drop_down)),
                       )
                     ],
                   ),
+                  SizedBox(height: 10),
+                  Container(
+                      child: Padding(
+                    padding: const EdgeInsets.fromLTRB(10, 4, 10, 0),
+                    child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.code_rounded),
+                          SizedBox(width: 5),
+                          Text("프론트엔드, iOS/안드로이드 앱 전문 블록체인 개발자",
+                              style: TextStyle(fontSize: 14))
+                        ]),
+                  )),
                   SizedBox(
-                    height: 25,
+                    height: 10,
                   ),
                   Container(
                     height: 45,
@@ -201,23 +226,6 @@ class ProfileScreen extends StatelessWidget {
                             )
                           ],
                         ),
-                        Column(
-                          mainAxisAlignment: MainAxisAlignment.end,
-                          children: [
-                            Icon(
-                              Icons.lock_outline,
-                              color: Colors.black26,
-                            ),
-                            SizedBox(
-                              height: 7,
-                            ),
-                            Container(
-                              color: Colors.transparent,
-                              height: 2,
-                              width: 55,
-                            )
-                          ],
-                        ),
                       ],
                     ),
                   ),
@@ -225,7 +233,7 @@ class ProfileScreen extends StatelessWidget {
                     children: [
                       Expanded(
                         child: Container(
-                          height: 140,
+                          height: 130,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
@@ -234,7 +242,7 @@ class ProfileScreen extends StatelessWidget {
                             child: CachedNetworkImage(
                               fit: BoxFit.fill,
                               imageUrl:
-                                  "https://media.giphy.com/media/Ii4Cv63yG9iYawDtKC/giphy.gif",
+                                  "https://mandoopapa.github.io/react-portfolio/images/portfolio/port1/p1.jpg",
                               placeholder: (context, url) => Padding(
                                 padding: const EdgeInsets.all(35.0),
                                 child: CircularProgressIndicator(),
@@ -248,7 +256,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: Container(
-                          height: 140,
+                          height: 130,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
@@ -257,7 +265,7 @@ class ProfileScreen extends StatelessWidget {
                             child: CachedNetworkImage(
                               fit: BoxFit.fill,
                               imageUrl:
-                                  "https://media.giphy.com/media/tqfS3mgQU28ko/giphy.gif",
+                                  "https://mandoopapa.github.io/react-portfolio/images/portfolio/photography/p1.jpg",
                               placeholder: (context, url) => Padding(
                                 padding: const EdgeInsets.all(35.0),
                                 child: CircularProgressIndicator(),
@@ -271,7 +279,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: Container(
-                          height: 140,
+                          height: 130,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
@@ -280,7 +288,7 @@ class ProfileScreen extends StatelessWidget {
                             child: CachedNetworkImage(
                               fit: BoxFit.fill,
                               imageUrl:
-                                  "https://media.giphy.com/media/3o72EX5QZ9N9d51dqo/giphy.gif",
+                                  "https://mandoopapa.github.io/react-portfolio/images/portfolio/adventure/p1.jpg",
                               placeholder: (context, url) => Padding(
                                 padding: const EdgeInsets.all(35.0),
                                 child: CircularProgressIndicator(),
@@ -298,7 +306,7 @@ class ProfileScreen extends StatelessWidget {
                     children: [
                       Expanded(
                         child: Container(
-                          height: 140,
+                          height: 130,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
@@ -307,7 +315,7 @@ class ProfileScreen extends StatelessWidget {
                             child: CachedNetworkImage(
                               fit: BoxFit.fill,
                               imageUrl:
-                                  "https://media.giphy.com/media/4oMoIbIQrvCjm/giphy.gif",
+                                  "https://mandoopapa.github.io/react-portfolio/images/portfolio/github_ext/p1.jpg",
                               placeholder: (context, url) => Padding(
                                 padding: const EdgeInsets.all(35.0),
                                 child: CircularProgressIndicator(),
@@ -321,7 +329,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: Container(
-                          height: 140,
+                          height: 130,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
@@ -330,7 +338,7 @@ class ProfileScreen extends StatelessWidget {
                             child: CachedNetworkImage(
                               fit: BoxFit.fill,
                               imageUrl:
-                                  "https://media.giphy.com/media/aZmD30dCFaPXG/giphy.gif",
+                                  "https://mandoopapa.github.io/react-portfolio/images/portfolio/gogin/p1.jpg",
                               placeholder: (context, url) => Padding(
                                 padding: const EdgeInsets.all(35.0),
                                 child: CircularProgressIndicator(),
@@ -344,7 +352,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: Container(
-                          height: 140,
+                          height: 130,
                           decoration: BoxDecoration(
                               color: Colors.black26,
                               border:
@@ -353,7 +361,7 @@ class ProfileScreen extends StatelessWidget {
                             child: CachedNetworkImage(
                               fit: BoxFit.fill,
                               imageUrl:
-                                  "https://media.giphy.com/media/NU8tcjnPaODTy/giphy.gif",
+                                  "https://firebasestorage.googleapis.com/v0/b/fluttertestabc.appspot.com/o/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.jpeg?alt=media&token=92f01f81-859a-43d9-b9bc-cc85f0cc67ac",
                               placeholder: (context, url) => Padding(
                                 padding: const EdgeInsets.all(35.0),
                                 child: CircularProgressIndicator(),

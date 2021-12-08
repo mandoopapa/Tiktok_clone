@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>655078518888-fep0ull2smpnvtsirchfk59dltsb6ndj.apps.googleusercontent.com</string>
+	<string>323374508038-f6cgq4hhetafd404qf5d14ebvu2tcved.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.655078518888-fep0ull2smpnvtsirchfk59dltsb6ndj</string>
+	<string>com.googleusercontent.apps.323374508038-f6cgq4hhetafd404qf5d14ebvu2tcved</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCfDnDorMHAB3k7sLVDoiVS4Qm7D0W2Fic</string>
+	<string>AIzaSyD_X2GRLfv2Mt4srvijqFG5ccLb7ZboP_s</string>
 	<key>GCM_SENDER_ID</key>
-	<string>655078518888</string>
+	<string>323374508038</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.demo.tiktok</string>
+	<string>com.appdemo.tiktok</string>
 	<key>PROJECT_ID</key>
-	<string>videostreaming-test</string>
+	<string>fluttertestabc</string>
 	<key>STORAGE_BUCKET</key>
-	<string>videostreaming-test.appspot.com</string>
+	<string>fluttertestabc.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:655078518888:ios:1415fe708ef37b9fd88bdd</string>
-	<key>DATABASE_URL</key>
-	<string>https://videostreaming-test.firebaseio.com</string>
-</dict>
+	<string>1:323374508038:ios:a99ed9a46e80b3d4f73b87</string>
+</dict>	
 </plist>
