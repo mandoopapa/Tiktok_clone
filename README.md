@@ -10,6 +10,11 @@
 
 <img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/mainfeed.gif" width=300px height=600px>
 
+- TikTok 원본과 설정화면 비교
+<img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/original.gif" width=300px height=600px alt="original">
+<img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/imade.gif" width=300px height=600px alt="clone">
+
+
 ### 설치하기
 
 ```
