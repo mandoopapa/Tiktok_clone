@@ -1,22 +1,22 @@
 # TikTok Clone
 
-### Tiktok 클론 with Flutter + Firebase
+### Flutter Tiktok Clone with Firebase
 
-- 스크린샷
+- Screenshots
 
 <img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/screen01.png" width=240px height=480px> <img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/screen02.png" width=240px height=480px> <img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/screen03.png" width=240px height=480px>
 
-- 샘플 영상(영상은 개인 Firebase를 통해 불러옵니다.)
+- Sample Video
 
 <img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/mainfeed.gif" width=300px height=600px>
 
-- TikTok 원본과 설정화면 비교
+- TikTok vs Clone
 
 <img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/original.gif" width=300px height=600px alt="original"> <img src="https://github.com/mandoopapa/Tiktok_clone/blob/master/images/imade.gif" width=300px height=600px alt="clone">
 
 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤOriginalㅤㅤㅤㅤㅤㅤㅤㅤ|ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤClone
 
-### 설치하기
+### Installation
 
 ```
 git clone https://github.com/mandoopapa/Tiktok_clone
@@ -27,9 +27,3 @@ flutter pub get
 
 flutter run
 ```
-
-iOS Simulator, Android Simulator로 구동이 가능합니다.
-
-직접 스마트폰에서도 앱을 실행해보실 수 있습니다!
-
------
